@@ -1,4 +1,4 @@
-<h1 align="center"> **How to run this code:** </h1>
+<h1 align="center"> How to run this code: </h1>
 
 
 1 - **Inside a folder clone this repository with:**

@@ -1,3 +1,13 @@
+## :hammer: Project features
+
+In this project I used `Django` with `Django Rest Framework` to create an EndPoint to request two tables
+based on its parameters and its functionalities are:
+
+- `1` It will be possible to create Products and Categories
+- `2` It will be possible to edit Products and Categories
+- `3` It will be possible to delete Products and Categories
+- `4` Filter Products by Name and/or Category
+
 <h1 align="center"> How to run this code: </h1>
 
 
@@ -22,14 +32,3 @@
 
 7 - **Run the project with:**
 <br>`python manage.py runserver`
-
-
-## :hammer: Project features
-
-In this Project we have an EndPoint to request two tables
-based on its parameters and its functionalities are:
-
-- `1` It will be possible to create Products and Categories
-- `2` It will be possible to edit Products and Categories
-- `3` It will be possible to delete Products and Categories
-- `4` Filter Products by Name and/or Category

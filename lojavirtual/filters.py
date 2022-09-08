@@ -4,12 +4,10 @@ from .models import Produto
 
 class ProdutoFilter(filters.FilterSet):
     nome = filters.CharFilter(field_name='nome', lookup_expr='icontains')
-    # categoria = filters.CharFilter(field_name='categoria__categoria', lookup_expr='icontains')
 
     class Meta:
         model: Produto
         fields: ('nome')
-        # fields: ('title','categoria__categoria')
 
 
 class CategoriaFilter(filters.FilterSet):

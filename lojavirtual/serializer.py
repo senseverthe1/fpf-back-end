@@ -3,11 +3,6 @@ from .models import Produto, Categoria
 
 
 class ProdutoSerializer(serializers.ModelSerializer):
-    # categoria = serializers.CharField(read_only=True)
-    # CategoriaSerializer
-    # def to_representation(self, instance):
-    #     self.fields['categoria'] = CategoriaSerializer(read_only=True)
-    #     return super(ProdutoSerializer, self).to_representation(instance)
     customField = serializers.CharField(source='category', read_only=True)
 
 
